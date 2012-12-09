@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5619EB21674CDA000B13EF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5619EB11674CDA000B13EF9 /* UIKit.framework */; };
+		A5619EB41674CDA000B13EF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5619EB31674CDA000B13EF9 /* Foundation.framework */; };
+		A5619EB61674CDA000B13EF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5619EB51674CDA000B13EF9 /* CoreGraphics.framework */; };
+		A5619EBC1674CDA000B13EF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5619EBA1674CDA000B13EF9 /* InfoPlist.strings */; };
+		A5619EBE1674CDA000B13EF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5619EBD1674CDA000B13EF9 /* main.m */; };
+		A5619EC21674CDA000B13EF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5619EC11674CDA000B13EF9 /* AppDelegate.m */; };
+		A5619EC41674CDA000B13EF9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619EC31674CDA000B13EF9 /* Default.png */; };
+		A5619EC61674CDA000B13EF9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619EC51674CDA000B13EF9 /* Default@2x.png */; };
+		A5619EC81674CDA000B13EF9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619EC71674CDA000B13EF9 /* Default-568h@2x.png */; };
+		A5619ED91674CF2700B13EF9 /* butt_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619ED11674CF2700B13EF9 /* butt_bg.png */; };
+		A5619EDB1674CF2700B13EF9 /* butt_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619ED31674CF2700B13EF9 /* butt_mask.png */; };
+		A5619EDD1674CF2700B13EF9 /* r_butt_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619ED51674CF2700B13EF9 /* r_butt_off.png */; };
+		A5619EDF1674CF2700B13EF9 /* r_butt_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A5619ED71674CF2700B13EF9 /* r_butt_on.png */; };
+		A5619EE11674CF4200B13EF9 /* custom_switcher_view.m in Sources */ = {isa = PBXBuildFile; fileRef = A5619ECF1674CE3A00B13EF9 /* custom_switcher_view.m */; };
+		A5619EE31674CFBC00B13EF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5619EE21674CFBC00B13EF9 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5619EAD1674CDA000B13EF9 /* custom_switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custom_switcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5619EB11674CDA000B13EF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5619EB31674CDA000B13EF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5619EB51674CDA000B13EF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5619EB91674CDA000B13EF9 /* custom_switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "custom_switcher-Info.plist"; sourceTree = "<group>"; };
+		A5619EBB1674CDA000B13EF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5619EBD1674CDA000B13EF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5619EBF1674CDA000B13EF9 /* custom_switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "custom_switcher-Prefix.pch"; sourceTree = "<group>"; };
+		A5619EC01674CDA000B13EF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5619EC11674CDA000B13EF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5619EC31674CDA000B13EF9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5619EC51674CDA000B13EF9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5619EC71674CDA000B13EF9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5619ECE1674CE3A00B13EF9 /* custom_switcher_view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = custom_switcher_view.h; sourceTree = "<group>"; };
+		A5619ECF1674CE3A00B13EF9 /* custom_switcher_view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = custom_switcher_view.m; sourceTree = "<group>"; };
+		A5619ED11674CF2700B13EF9 /* butt_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butt_bg.png; sourceTree = "<group>"; };
+		A5619ED31674CF2700B13EF9 /* butt_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butt_mask.png; sourceTree = "<group>"; };
+		A5619ED51674CF2700B13EF9 /* r_butt_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r_butt_off.png; sourceTree = "<group>"; };
+		A5619ED71674CF2700B13EF9 /* r_butt_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r_butt_on.png; sourceTree = "<group>"; };
+		A5619EE21674CFBC00B13EF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5619EAA1674CDA000B13EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5619EE31674CFBC00B13EF9 /* QuartzCore.framework in Frameworks */,
+				A5619EB21674CDA000B13EF9 /* UIKit.framework in Frameworks */,
+				A5619EB41674CDA000B13EF9 /* Foundation.framework in Frameworks */,
+				A5619EB61674CDA000B13EF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5619EA21674CDA000B13EF9 = {
+			isa = PBXGroup;
+			children = (
+				A5619EB71674CDA000B13EF9 /* custom_switcher */,
+				A5619EB01674CDA000B13EF9 /* Frameworks */,
+				A5619EAE1674CDA000B13EF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5619EAE1674CDA000B13EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5619EAD1674CDA000B13EF9 /* custom_switcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5619EB01674CDA000B13EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5619EE21674CFBC00B13EF9 /* QuartzCore.framework */,
+				A5619EB11674CDA000B13EF9 /* UIKit.framework */,
+				A5619EB31674CDA000B13EF9 /* Foundation.framework */,
+				A5619EB51674CDA000B13EF9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5619EB71674CDA000B13EF9 /* custom_switcher */ = {
+			isa = PBXGroup;
+			children = (
+				A5619ED01674CEF700B13EF9 /* images */,
+				A5619ECE1674CE3A00B13EF9 /* custom_switcher_view.h */,
+				A5619ECF1674CE3A00B13EF9 /* custom_switcher_view.m */,
+				A5619EC01674CDA000B13EF9 /* AppDelegate.h */,
+				A5619EC11674CDA000B13EF9 /* AppDelegate.m */,
+				A5619EB81674CDA000B13EF9 /* Supporting Files */,
+			);
+			path = custom_switcher;
+			sourceTree = "<group>";
+		};
+		A5619EB81674CDA000B13EF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5619EB91674CDA000B13EF9 /* custom_switcher-Info.plist */,
+				A5619EBA1674CDA000B13EF9 /* InfoPlist.strings */,
+				A5619EBD1674CDA000B13EF9 /* main.m */,
+				A5619EBF1674CDA000B13EF9 /* custom_switcher-Prefix.pch */,
+				A5619EC31674CDA000B13EF9 /* Default.png */,
+				A5619EC51674CDA000B13EF9 /* Default@2x.png */,
+				A5619EC71674CDA000B13EF9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5619ED01674CEF700B13EF9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A5619ED11674CF2700B13EF9 /* butt_bg.png */,
+				A5619ED31674CF2700B13EF9 /* butt_mask.png */,
+				A5619ED51674CF2700B13EF9 /* r_butt_off.png */,
+				A5619ED71674CF2700B13EF9 /* r_butt_on.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5619EAC1674CDA000B13EF9 /* custom_switcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5619ECB1674CDA000B13EF9 /* Build configuration list for PBXNativeTarget "custom_switcher" */;
+			buildPhases = (
+				A5619EA91674CDA000B13EF9 /* Sources */,
+				A5619EAA1674CDA000B13EF9 /* Frameworks */,
+				A5619EAB1674CDA000B13EF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = custom_switcher;
+			productName = custom_switcher;
+			productReference = A5619EAD1674CDA000B13EF9 /* custom_switcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5619EA41674CDA000B13EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = test;
+			};
+			buildConfigurationList = A5619EA71674CDA000B13EF9 /* Build configuration list for PBXProject "custom_switcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5619EA21674CDA000B13EF9;
+			productRefGroup = A5619EAE1674CDA000B13EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5619EAC1674CDA000B13EF9 /* custom_switcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5619EAB1674CDA000B13EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5619EBC1674CDA000B13EF9 /* InfoPlist.strings in Resources */,
+				A5619EC41674CDA000B13EF9 /* Default.png in Resources */,
+				A5619EC61674CDA000B13EF9 /* Default@2x.png in Resources */,
+				A5619EC81674CDA000B13EF9 /* Default-568h@2x.png in Resources */,
+				A5619ED91674CF2700B13EF9 /* butt_bg.png in Resources */,
+				A5619EDB1674CF2700B13EF9 /* butt_mask.png in Resources */,
+				A5619EDD1674CF2700B13EF9 /* r_butt_off.png in Resources */,
+				A5619EDF1674CF2700B13EF9 /* r_butt_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5619EA91674CDA000B13EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5619EE11674CF4200B13EF9 /* custom_switcher_view.m in Sources */,
+				A5619EBE1674CDA000B13EF9 /* main.m in Sources */,
+				A5619EC21674CDA000B13EF9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5619EBA1674CDA000B13EF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5619EBB1674CDA000B13EF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5619EC91674CDA000B13EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5619ECA1674CDA000B13EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5619ECC1674CDA000B13EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "custom_switcher/custom_switcher-Prefix.pch";
+				INFOPLIST_FILE = "custom_switcher/custom_switcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5619ECD1674CDA000B13EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "custom_switcher/custom_switcher-Prefix.pch";
+				INFOPLIST_FILE = "custom_switcher/custom_switcher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5619EA71674CDA000B13EF9 /* Build configuration list for PBXProject "custom_switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5619EC91674CDA000B13EF9 /* Debug */,
+				A5619ECA1674CDA000B13EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5619ECB1674CDA000B13EF9 /* Build configuration list for PBXNativeTarget "custom_switcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5619ECC1674CDA000B13EF9 /* Debug */,
+				A5619ECD1674CDA000B13EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5619EA41674CDA000B13EF9 /* Project object */;
+}
